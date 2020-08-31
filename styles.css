@@ -1,0 +1,17 @@
+body{
+    background-color: lightblue;
+}
+
+
+h1 {
+    color: #025157;
+}
+
+p {
+    color: #46484c;
+}
+
+button {
+    color: #fff;
+    background-color: #025157;
+}
