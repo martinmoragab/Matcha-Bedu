@@ -1,10 +1,11 @@
 body{
+    /* Cambia el bkg color de la pag */
     background-color: lightblue;
 }
 
 
 h1 {
-    color: #025157;
+    color: red;
 }
 
 p {
@@ -12,6 +13,8 @@ p {
 }
 
 button {
+    /* Cambia el color del texto del boton */
     color: #fff;
+    /* Cambia el bkg color del boton */
     background-color: #025157;
 }
