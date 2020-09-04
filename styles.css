@@ -1,16 +1,32 @@
 body{
     /* Cambia el bkg color de la pag */
-    background-color: lightblue;
+    background-color: #FFFBF7;
+    text-align: center;
 }
 
-
-h1 {
-    color: red;
+#bigimage {
+    width: 80%;
 }
 
-p {
+#title {
+    color: #025157;
+    font-size: 45px;
+}
+
+#paragraph {
     color: #46484c;
     display: block;
+    font-size: 25px;
+}
+
+#freetrialtext {
+    color: #A2A3AE;
+
+}
+
+#emailbox {
+    padding: 10px;
+
 }
 
 button {
@@ -18,6 +34,7 @@ button {
     color: #fff;
     /* Cambia el bkg color del boton */
     background-color: #025157;
+    padding: 10px;
 }
 
 header > * {
@@ -58,3 +75,4 @@ li {
     font-size: 14px;
     font-weight: 600;
 }
+
