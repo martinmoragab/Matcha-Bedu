@@ -35,6 +35,7 @@ button {
     /* Cambia el bkg color del boton */
     background-color: #025157;
     padding: 10px;
+    margin-right: 0;
 }
 
 header > * {
@@ -74,5 +75,9 @@ li {
     text-align: right;
     font-size: 14px;
     font-weight: 600;
+}
+
+form > * {
+    margin: 0;
 }
 
