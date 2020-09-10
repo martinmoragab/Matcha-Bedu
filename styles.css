@@ -2,6 +2,8 @@ body {
     /* Cambia el bkg color de la pag */
     background-color: #FFFBF7;
     text-align: center;
+    margin-top: 285px;
+    text-align: center;
 }
 
 #bigimage {
@@ -49,6 +51,11 @@ header > * {
 .header {
     margin-top: 40px 20px auto 20px;
     font-size: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
 }
 
 li {
@@ -81,3 +88,29 @@ form > * {
     margin: 0;
 }
 
+#publishtrial {
+    color: #025157;
+}
+
+.publicidad {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+}
+
+.explanatory-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1
+}
+
+.publish {
+    flex: 1;
+}
+
+.explanatory-video img {
+    width: 120px;
+    margin-top: 10px;
+}
