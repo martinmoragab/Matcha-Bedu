@@ -38,6 +38,7 @@ button {
     background-color: #025157;
     padding: 10px;
     margin-right: 0;
+    border-radius: 8px;
 }
 
 header > * {
@@ -49,6 +50,10 @@ header > * {
 }
 
 .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
     margin-top: 40px 20px auto 20px;
     font-size: 0;
     position: fixed;
@@ -56,10 +61,12 @@ header > * {
     left: 0;
     right: 0;
     background-color: #fffbf7;
+    padding: 10px;
 }
 
 li {
     display: inline;
+    padding: 10px;
 }
 
 .logo {
