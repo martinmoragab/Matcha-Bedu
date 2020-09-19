@@ -3,6 +3,7 @@
     <head> <!--Informacion importante pero no visible en el ordenador-->
         <title>Matcha</title> <!-- titulo que va en la tab -->
         <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
     </head>
     <header class="header">
         <!-- Logo con link a la pag principal -->
@@ -39,23 +40,27 @@
         <p id="freetrialtext">Start publishing today with a <strong>free 7-day trial.</strong><br><strong>No credit card required.</strong></p>
         <br>
         <!-- Para agregar imagen; alt es por si la imagen no carga-->
-        <img src="capterra.png" alt="Capterra score">
-        <img id ="bigimage" src="intro_group_image.png" alt="Group Image">
-        <section class="publicidad">
-            <article class="explanatory-video">
-                <video src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4" controls poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg"></video>
-                <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/see_how_it_works.png" alt="See how it works">
-            </article>    
-            <section class="publish">
-                <h3 id="publishtrial">Publish to your blog in minutes, not hours.</h3>
-                <p id="freetrialtext">Your blog is your most powerful asset to build, engage, and retain a loyal audience. But you don’t have hours to create content that may or may not work. With Matcha, instantly publish from our library of 10,000+ professionally written articles and build your email list faster with our powerful conversion tool.</p>
+        <figure class="banner">
+            <img src="capterra.png" alt="Capterra score">
+            <img id ="bigimage" src="intro_group_image.png" alt="Group Image">
+        </figure>
+            <section class="publicidad">
+                <article class="explanatory-video">
+                    <video src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4" controls poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg"></video>
+                    <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/see_how_it_works.png" alt="See how it works">
+                </article>    
+                <section class="publish">
+                    <h3 id="publishtrial">Publish to your blog in minutes, not hours.</h3>
+                    <p id="freetrialtext">Your blog is your most powerful asset to build, engage, and retain a loyal audience. But you don’t have hours to create content that may or may not work. With Matcha, instantly publish from our library of 10,000+ professionally written articles and build your email list faster with our powerful conversion tool.</p>
+                </section>
+                <article class="trialform">
+                    <p>Start publishing today:</p>
+                    <form>
+                        <input id ="emailbox" type="email" placeholder="Enter email"/>
+                        <button type="submit">Start My Trial</button>
+                    </form>    
+                    </article>
             </section>
-            <form>
-                <p>Start publishing today:</p>
-                <input id ="emailbox" type="email" placeholder="Enter email"/>
-                <button type="submit">Start My Trial</button>
-            </form>
-        </section>
         <!-- Uso de CSS Grid. En css se usa display: grid; -->
         <section class="features">
             <article class="feature-card">
