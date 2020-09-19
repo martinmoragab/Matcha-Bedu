@@ -127,7 +127,7 @@ form > * {
     display: grid;
     grid-template: repeat(2, 330px) / repeat(2, 1fr);
     background-color: #025157;
-    padding: 5% 10%;
+    padding: 5% 10%;;
 }
 
 .features .feature-card {
