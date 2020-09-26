@@ -78,10 +78,10 @@ li {
 }
 
 .navbar {
-    width: 70%;
     text-align: center;
     color: #025157;
     font-weight: 500;
+    margin-top: fixed;
 }
 
 .actions {
